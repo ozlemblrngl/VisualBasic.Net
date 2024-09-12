@@ -20,11 +20,14 @@
         x = Val(TxtNmb1.Text)
         y = Val(TxtNmb2.Text)
 
-        If x > y Then
+        If (x > y) Then
             MessageBox.Show($"{x} greater than {y}")
         Else
             MessageBox.Show($"{y} greater than {x}")
         End If
+
+        'contition u parantez içine veya parantezsiz yazabiliriz.
+        'Parantez kullanımı kodun okunurluğunu artırır
 
     End Sub
 
